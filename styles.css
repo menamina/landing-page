@@ -1,74 +1,84 @@
 
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    font-family:'Times New Roman', Times, serif
 }
+
+.metacontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 100px;
+  gap: 50px;
+  background-image:url("stars.jpg");
+  border: 5px solid rgb(164, 202, 152);
+}
+
+.toptainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid rgb(253, 216, 222);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.links a {
+  margin-left: 25px;
+  color: #F9FAF8;
+  text-decoration: none;
+  font-size: 18px;
+}
+
 
 .tainer1 {
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(206, 191, 220);
-    border: 2px dotted black;
-    margin: 2px;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border: 5px solid #e2e2ce;
 }
 
-
-.links {
-    display: flex;
-    justify-content: flex-end;
+.left-side {
+  max-width: 500px;
+  border: 5px solid rgb(119, 103, 103);
 }
 
-.left-side-tainer1 {
-    background-color: aquamarine;
-    align-content: center;
+.moonphase {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.text1 {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 20px 0;
+}
+
+.b1 {
+  padding: 10px 25px;
+  background-color: #262627;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .right-side {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  justify-content: flex-end;
+  height: 250px;
+  font-size: 16px;
+  border: 5px solid rgb(202, 187, 135);
 }
 
-.moon1 {
-    height: auto;
-    width: 500px;
+.moonmain {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
-.tainer2 {
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(206, 191, 220);
-    border: 2px dotted black;
-    margin: 2px;
-    justify-content: space-around;
-}
-
-.tainer3 {
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(206, 191, 220);
-    border: 2px dotted black;
-    margin: 2px;
-    justify-content: space-around;
-}
-
-
-.tainer4 {
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(206, 191, 220);
-    border: 2px dotted black;
-    margin: 2px;
-    justify-content: space-around;
-}
-
-.footer {
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(206, 191, 220);
-    border: 2px dotted black;
-    margin: 2px;
-    justify-content: space-around;
-}
